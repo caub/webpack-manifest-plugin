@@ -87,25 +87,6 @@ Default: `{}`
 
 A cache of key/value pairs to used to seed the manifest. This may include a set of [custom key/value](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/manifest.json) pairs to include in your manifest, or may be used to combine manifests across compilations in [multi-compiler mode](https://github.com/webpack/webpack/tree/master/examples/multi-compiler). To combine manifests, pass a shared seed object to each compiler's ManifestPlugin instance.
 
-### `options.filter`
-
-Type: `function`
-
-Filter out files. [more details](#hooks-options)
-
-
-### `options.map`
-
-Type: `function`
-
-Modify files details before the manifest is created. [more details](#hooks-options)
-
-### `options.sort`
-
-Type: `function`
-
-Sort files before they are passed to `generate`. [more details](#hooks-options)
-
 ### `options.generate`
 
 Type: `function`<br>
