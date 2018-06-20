@@ -1,6 +1,6 @@
 {
-  "name": "webpack-manifest-plugin",
-  "version": "2.0.3",
+  "name": "webpack-manifest-sorted-plugin",
+  "version": "3.0.1",
   "description": "webpack plugin for generating asset manifests",
   "main": "index.js",
   "scripts": {
@@ -28,23 +28,20 @@
     "rimraf": "^2.6.1",
     "style-loader": "^0.21.0",
     "svgr": "^1.9.2",
+    "toposort": "^2.0.2",
     "webpack": "^4.12.0"
   },
   "files": [
     "index.js",
     "lib"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/danethurber/webpack-manifest-plugin.git"
-  },
+  "repository": "github:caub/webpack-manifest-sorted-plugin.git",
   "bugs": {
-    "url": "https://github.com/danethurber/webpack-manifest-plugin/issues"
+    "url": "https://github.com/dcaub/webpack-manifest-sorted-plugin/issues"
   },
-  "homepage": "https://github.com/danethurber/webpack-manifest-plugin",
+  "homepage": "https://github.com/caub/webpack-manifest-sorted-plugin",
   "dependencies": {
-    "tapable": "^1.0.0",
-    "toposort": "^2.0.2"
+    "tapable": "^1.0.0"
   },
   "jest": {
     "testEnvironment": "node",
